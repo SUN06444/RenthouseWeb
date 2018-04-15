@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  background: #222;
+}
+
+/* Default classes */
+.centered { text-align: center;}
+
+.border-top {
+  border-top: 1px solid #ddd;
+}
+
+/* Nav config */
+nav {
+  width: 300px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.825);
+  -webkit-clip-path: circle(24px at 30px 24px);
+  transition: -webkit-clip-path .65s;
+}
+
+nav:hover {
+  -webkit-clip-path: circle(990px at 225px 24px);
+}
+
+/* Nav-user config */
+.nav-user {
+  min-width: auto;
+  height: 200px;
+  background: #000;
+  color: #fff;
+}
+
+.nav-user a {
+  background: transparent;
+  border: none;
+}
+
+.nav-user a img {
+  min-width: auto;
+  height: 100px;
+  border: none;
+}
+
+.nav-user a:last-of-type:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Nav-items config */
+.nav-items a {  
+  display: block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  line-height: 50px;
+  padding: 0 20px;
+  color: inherit;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.nav-items a:hover {
+  width: 315px;
+  text-decoration: none;
+  background: rgba(0, 100, 150, .8);
+  color: #fff;
+  border: none;
+}
+
+.nav-items a:active {
+  background: #369;
+}
+
+a span.label-danger {
+  animation: badge-alert 1s infinite;
+}
+
+@keyframes badge-alert {
+  from {
+    background: rgba(255, 0, 0, .1);
+  }
+
+  to {
+    background: rgba(255, 0, 0, 1);
+  }
+}
+
+/* Hamburger icon config */
+.navicon {
+  padding: 23px 20px;
+  cursor: pointer;
+  transform-origin: 32px 24px;
+}
+
+.navicon div {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.87);
+}
+
+.navicon div:before,
+.navicon div:after {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.87);
+  position: absolute;
+}
+
+.navicon div:before {
+  top: -7px;
+}
+
+.navicon div:after {
+  top: 7px;
+}
