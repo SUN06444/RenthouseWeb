@@ -22,13 +22,16 @@
 ## 4. 功能項目
 
 - 註冊功能(房客、房東)、登入功能(房客、房東、管理人員)
-
+  <p align="center"><img src="https://github.com/SUN06444/RenthouseWeb/blob/master/housepic/6.jpg"></p>
 - 房屋搜尋功能
-
+  <p align="center"><img src="https://github.com/SUN06444/RenthouseWeb/blob/master/housepic/1.png"></p>
+   <p align="center"><img src="https://github.com/SUN06444/RenthouseWeb/blob/master/housepic/2.png"></p>
 - 房客：房屋收藏、房屋比較功能、基本資料管理、收藏紀錄查詢
-
+ <p align="center"><img src="https://github.com/SUN06444/RenthouseWeb/blob/master/housepic/3.jpg"></p>
+  <p align="center"><img src="https://github.com/SUN06444/RenthouseWeb/blob/master/housepic/8.png"></p>
 - 房東：刊登房屋功能
-
+  <p align="center"><img src="https://github.com/SUN06444/RenthouseWeb/blob/master/housepic/13.png"></p>
 - 管理人員：審核學生身分以及審核房屋刊登資訊
-
+  <p align="center"><img src="https://github.com/SUN06444/RenthouseWeb/blob/master/housepic/4.jpg"></p>
 - 警局、醫院、診所分布圖
+  <p align="center"><img src="https://github.com/SUN06444/RenthouseWeb/blob/master/housepic/5.jpg"></p>
